@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import heroImg from '../assets/hero.svg'
-import { FaGithubSquare, FaLinkedin, FaWhatsappSquare} from 'react-icons/fa'
+import { FaGithubSquare, FaLinkedin, FaWhatsappSquare } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -15,19 +15,19 @@ const Hero = () => {
             bridging creativity and technology through code
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="#">
+            <a href="https://github.com/miguel-p-alves">
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/miguelpalves19/">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="#">
+            <a href="https://wa.me/+5522997494472">
               <FaWhatsappSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
         </article>
-        <article className='hidden md:block'>
-          <img src={heroImg} className='h-80 lg:h-96' alt="" />
+        <article className="hidden md:block">
+          <img src={heroImg} className="h-80 lg:h-96" alt="" />
         </article>
       </div>
     </div>
