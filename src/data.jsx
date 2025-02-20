@@ -1,12 +1,12 @@
-import { nanoid } from 'nanoid'
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa'
+import { nanoid } from 'nanoid';
+import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#skills', text: 'skills' },
   { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#projects', text: 'projects' },
-]
+];
 
 export const skills = [
   {
@@ -27,9 +27,17 @@ export const skills = [
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
-]
+];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: 'https://i.imgur.com/OKNHGeR.png',
+    url: 'https://mpcurrencyconverter.netlify.app',
+    github: 'https://github.com/miguel-p-alves/currency-converter',
+    title: 'Currency Converter',
+    text: 'A currency converter built using React and Tailwind, where users can easily convert between different currencies all within a clean and intuitive interface. Where I was able to deepen my understanding of React hooks and API integration.',
+  },
   {
     id: nanoid(),
     img: 'https://i.imgur.com/ffy7csd.jpeg',
@@ -54,4 +62,4 @@ export const projects = [
     title: 'Patas&Pelos',
     text: 'A website built using HTML, CSS, and JavaScript, where I was able to deepen my understanding of JS concepts, integrate a Bitcoin API, and work with an internal API to enhance functionality and provide real-time data.',
   },
-]
+];

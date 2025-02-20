@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-import heroImg from '../assets/hero.svg'
-import { FaGithubSquare, FaLinkedin, FaWhatsappSquare } from 'react-icons/fa'
+import heroImg from '../assets/hero.svg';
+import { FaGithubSquare, FaLinkedin, FaWhatsappSquare } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -15,13 +15,16 @@ const Hero = () => {
             bridging creativity and technology through code
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="https://github.com/miguel-p-alves">
+            <a href="https://github.com/miguel-p-alves" target="_blank">
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="https://www.linkedin.com/in/miguelpalves19/">
+            <a
+              href="https://www.linkedin.com/in/miguelpalves19/"
+              target="_blank"
+            >
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
-            <a href="https://wa.me/+5522997494472">
+            <a href="https://wa.me/+5522997494472" target="_blank">
               <FaWhatsappSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>
@@ -31,6 +34,6 @@ const Hero = () => {
         </article>
       </div>
     </div>
-  )
-}
-export default Hero
+  );
+};
+export default Hero;
